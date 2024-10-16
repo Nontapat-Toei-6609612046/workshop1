@@ -25,7 +25,7 @@ function submitLogin(event) {
         return;
     }
 
-    // หาก input ถูกต้อง ทำการส่งข้อมูลไปยัง API
+  
     fetch('https://restapi.tu.ac.th/api/v1/auth/Ad/verify', {
         method: 'POST',
         headers: {
